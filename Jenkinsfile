@@ -3,7 +3,7 @@ agent any
   stages{
     stage('python version'){
       steps{
-        sh 'python3 --version'
+        sh 'python --version'
       }
     }
     stage('hello'){
